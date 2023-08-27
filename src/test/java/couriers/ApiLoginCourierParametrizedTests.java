@@ -91,7 +91,6 @@ public class ApiLoginCourierParametrizedTests {
     }
     @After
     public void clearCourier(){
-
         courierClient.delete(id);
     }
 }
