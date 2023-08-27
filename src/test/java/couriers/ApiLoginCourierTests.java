@@ -50,7 +50,6 @@ public class ApiLoginCourierTests {
         CourierPass courierPass = CourierPass.passFrom(courier);
         Response response = courierClient.login(courierPass);
         id = response.path("id");
-        System.out.println(id);
         Response deleteResponse = courierClient.delete(id);
 
         assertTrue("Удаление курьера", deleteResponse.statusCode() == HttpStatus.SC_OK);
