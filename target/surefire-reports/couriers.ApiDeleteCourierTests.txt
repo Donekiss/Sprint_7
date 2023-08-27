@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: couriers.ApiDeleteCourierTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.073 s <<< FAILURE! - in couriers.ApiDeleteCourierTests
+testDeleteNotExistingCourier(couriers.ApiDeleteCourierTests)  Time elapsed: 1.99 s  <<< FAILURE!
+org.junit.ComparisonFailure: Неверное сообщение об ошибке expected:<...рьера с таким id нет[]> but was:<...рьера с таким id нет[.]>
+	at couriers.ApiDeleteCourierTests.testDeleteNotExistingCourier(ApiDeleteCourierTests.java:67)
+
+testDeleteCourierWithOutId(couriers.ApiDeleteCourierTests)  Time elapsed: 1.034 s  <<< FAILURE!
+java.lang.AssertionError: Удаление курьера без id expected:<400> but was:<500>
+	at couriers.ApiDeleteCourierTests.testDeleteCourierWithOutId(ApiDeleteCourierTests.java:47)
+

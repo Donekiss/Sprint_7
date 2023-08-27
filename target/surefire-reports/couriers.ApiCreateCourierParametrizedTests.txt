@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: couriers.ApiCreateCourierParametrizedTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.467 s <<< FAILURE! - in couriers.ApiCreateCourierParametrizedTests
+testCreateCourierBadRequest[0](couriers.ApiCreateCourierParametrizedTests)  Time elapsed: 5.565 s  <<< FAILURE!
+java.lang.AssertionError: Ќедостаточно данных дл€ создани€ учетной записи expected:<400> but was:<201>
+	at couriers.ApiCreateCourierParametrizedTests.testCreateCourierBadRequest(ApiCreateCourierParametrizedTests.java:52)
+
